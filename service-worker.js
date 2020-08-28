@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/alisam1/3DV_test/precache-manifest.b482938d8be69dc8dc3fc7d948733e4f.js"
+  "/3DV_test/precache-manifest.b411d00713bfffda3a85c5d9c9907b83.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/alisam1/3DV_test/index.html", {
+workbox.routing.registerNavigationRoute("/3DV_test/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
