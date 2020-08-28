@@ -130,8 +130,6 @@ const posts = [
     { id: 2, title: 'Группа', icon: <PeopleAltIcon />  },
     { id: 3, title: 'Корзина', icon: <ShoppingCartIcon />},
     { id: 4, title: 'Работа', icon: <WorkIcon /> },
-    { id: 5, title: 'Помощь', icon: <HelpOutlineIcon /> },
-    { id: 6, title: 'Выход', icon: <ExitToAppIcon /> },
     ];
 
 const items = [
